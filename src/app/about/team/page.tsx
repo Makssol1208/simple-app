@@ -2,6 +2,6 @@
 
 export default function Team() {
   return (
-    <div>Team page</div>
+    <h1>Team page</h1>
   )
 }
