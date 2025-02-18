@@ -27,7 +27,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
   const post = await getData(id);
   return {
-    title: id,
+    title: post.title,
   };
 }
 
