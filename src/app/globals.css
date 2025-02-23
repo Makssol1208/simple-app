@@ -8,14 +8,41 @@ body {
 
 .container {
   max-width: 1230px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+}
+
+.active {
+  color: rgb(77, 77, 199);
+}
+
+input {
+  outline: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input:focus {
+  border: 1px solid rgb(99, 99, 224);
+}
+
+button {
+  margin-left: 10px;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  outline: 1px solid black;
+  color: #fff;
+  background-color: rgb(64, 64, 184);
 }
 
 h1 {
   text-align: center;
-  margin: 30px 0;
   font-size: 40px;
   font-weight: 600;
 }
@@ -49,6 +76,11 @@ nav ul {
 }
 
 .link {
+  font-size: 24px;
+  color: #000;
+}
+
+a {
   gap: 38px;
   font-size: 22px;
   font-weight: 500;
@@ -57,7 +89,7 @@ nav ul {
   transition: 0.2s ease-in;
 }
 
-.link:hover {
+a:hover {
   color: rgb(129, 129, 245);
   text-decoration: underline;
 }

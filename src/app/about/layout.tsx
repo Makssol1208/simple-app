@@ -10,10 +10,10 @@ export default function AboutLayout({
       <h1>About Us</h1>
       <ul>
         <li>
-          <Link href="/about/contacts">Contacts</Link>
+          <Link className="link" href="/about/contacts">Contacts</Link>
         </li>
         <li>
-          <Link href="/about/team">Team</Link>
+          <Link className="link" href="/about/team">Team</Link>
         </li>
       </ul>
       {children}
